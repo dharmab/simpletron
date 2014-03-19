@@ -1,0 +1,19 @@
++1016 read a number from user input into memory[16]
++2016 load number from memory[16] into accumulator
++3017 add number from accumulator to running sum from memory[17] and load result in accumulator
++2117 store new sum from accumulator into memory[17]
++2014 load counter from memory[14] into accumulator
++3013 add constant 1 from memory[13] into accumulator
++2114 store new counter from accumulator into memory[14]
++4100 if accumulator is negative, branch to memory[00] otherwise continue (loop until counter >= 0)
++2015 load constant 7 from memory [15] into accumulator
++3217 divide sum from memory[17] into accumulator and load result (mean) into accumulator
++2118 store mean from accumulator into memory[18]
++1118 write mean from memory[18] to screen
++4300 (constant)
++0001 (constant)
+-0007 (variable: counter)
++0007 (constant)
++0000 (variable: number)
++0000 (variable: sum)
++0000 (variable: mean)

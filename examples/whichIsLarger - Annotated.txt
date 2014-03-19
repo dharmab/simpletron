@@ -1,0 +1,11 @@
++1009 read a number from user input into memory[9]
++1010 read a number from user input into memory[10]
++2009 load number from memory[9] into the accumulator
++3110 subtract the number from memory[10] from the accumulator and load the result into the accumulator
++4107 if the value in the accumulator is negative, branch to memory[7]
++1109 write the number from memory[9] to the screen
++4300 halt
++1110 write the number from memory[10] to the screen
++4300 halt
++0000 (variable: first number)
++0000 (variable: second number)

@@ -1,0 +1,10 @@
+1007 read a number from user input into memory[7]
+1008 read a number from user input into memory[8]
+2007 load number from memory[7] into accumulator
+3008 add number from memory[8] into accumulator
+2109 store the sum of the numbers from the accumulator into memory[9]
+1109 write sum from memory[9] to screen
+4300 halt
+0000 (variable: first number)
+0000 (variable: second number)
+0000 (variable: sum)
